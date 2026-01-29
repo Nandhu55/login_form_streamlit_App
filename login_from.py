@@ -62,6 +62,7 @@ DB_USER = "root"
 DB_PASSWORD = "nandhu@sunny8"
 DB_NAME = "Student_db"
 DB_TABLE = "users"
+DB_PORT = 3306
 
 # Initialize session state
 if 'logged_in' not in st.session_state:
@@ -608,3 +609,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
